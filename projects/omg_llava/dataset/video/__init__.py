@@ -1,0 +1,3 @@
+from .ReVOS_Dataset import VideoReVOSDataset
+from .MeVIS_Dataset import VideoMeVISDataset
+from .RefYoutubeVOS_Dataset import VideoRefYoutubeVOSDataset

@@ -1,0 +1,1 @@
+from .internvl_collate_fn import internvl_collate_fn

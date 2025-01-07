@@ -59,14 +59,14 @@ the images and visual prompt annotation file involved in the corresponding conve
 
 ## Evaluation <a name="evaluation"></a>
 
-We build the evaluation tool **MMVMEvalKit** based on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). To evaluate MLLMs on our MMVM benchmark
+We build the evaluation tool **MMVMEvalKit** based on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). To evaluate MLLMs on our MMVM benchmark.
  You can find the development version of our evaluation tool at [here](https://github.com/zhouyiks/MMVMEvalKit.git).
 
 
 Before running evaluation: 
 
 1. Clone down our **MMVMEvalKit**.
-2. Download the `match_bench.zip` and `mllm_match_eval_full.tsv` from [here](https://huggingface.co/zhouyik/MMVMBench) and put them under the **MMVMEvalKit** folder and `match_bench.zip`.
+2. Download the `match_bench.zip` and `mllm_match_eval_full.tsv` from [here](https://huggingface.co/zhouyik/MMVMBench) and put them under the **MMVMEvalKit** folder and unzip the `match_bench.zip`.
 3. Evironment requirements follow that of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 4. Note: Your OpenAI API Key should be setted in the **.env** file:
 ```

@@ -60,14 +60,14 @@ the images and visual prompt annotation file involved in the corresponding conve
 ## Evaluation <a name="evaluation"></a>
 
 We build the evaluation tool **MMVMEvalKit** based on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). To evaluate MLLMs on our MMVM benchmark
- You can find the development version of our evaluation tool at [here](https://github.com/zhouyiks/MMVMEvalKit.git)
+ You can find the development version of our evaluation tool at [here](https://github.com/zhouyiks/MMVMEvalKit.git).
 
 
 Before running evaluation: 
 
 1. Clone down our **MMVMEvalKit**.
-2. Download the `match_bench.zip` and `mllm_match_eval_full.tsv` from [here](https://huggingface.co/zhouyik/MMVMBench) and put them under the **MMVMEvalKit** folder and `match_bench.zip`
-3. Evironment requirements follow that of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit)
+2. Download the `match_bench.zip` and `mllm_match_eval_full.tsv` from [here](https://huggingface.co/zhouyik/MMVMBench) and put them under the **MMVMEvalKit** folder and `match_bench.zip`.
+3. Evironment requirements follow that of [VLMEvalKit](https://github.com/open-compass/VLMEvalKit).
 4. Note: Your OpenAI API Key should be setted in the **.env** file:
 ```
 # OpenAI API
@@ -109,7 +109,7 @@ The LLM of the MLLM is tuned applying LoRA.
 
 During the pre-training phase, we sample 500k images with segmentation labels from [SA1B](https://ai.meta.com/datasets/segment-anything/).
 
-During the fine-tune phase, we utilize the [LLaVA SFT data](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/tree/main), [ShareGPT4o](https://huggingface.co/datasets/OpenGVLab/ShareGPT-4o), and our [MMVM SFT data]().
+During the fine-tune phase, we utilize the [LLaVA SFT data](https://huggingface.co/datasets/liuhaotian/LLaVA-Instruct-150K/tree/main), [ShareGPT4o](https://huggingface.co/datasets/OpenGVLab/ShareGPT-4o), and our [MMVM SFT data](https://huggingface.co/datasets/zhouyik/MMVMData/tree/main).
 
 ### Pretrain
 For the pre-training stage of CoLVA-InternVL2-4B, run with 1 node and 8 ranks: 

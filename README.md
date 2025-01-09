@@ -1,6 +1,6 @@
 # Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs
 
-### [Paper](https://arxiv.org/abs/***) | [Project Page](https://zhouyiks.github.io/projects/CoLVA/) | [MMVM Benchmark](https://huggingface.co/zhouyik/MMVMBench) | [Huggingface](https://huggingface.co/zhouyik/colva_internvl2_4b)
+### [Paper](https://arxiv.org/abs/2501.04670) | [Project Page](https://zhouyiks.github.io/projects/CoLVA/) | [MMVM Benchmark](https://huggingface.co/zhouyik/MMVMBench) | [Huggingface](https://huggingface.co/zhouyik/colva_internvl2_4b)
 
 ![Teaser](imgs/teaser_00.png)
 

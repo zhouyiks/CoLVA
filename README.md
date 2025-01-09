@@ -140,5 +140,17 @@ This project is under the MIT license. See [LICENSE](LICENSE) for details.
 ## Citation <a name="citation"></a>
 Please consider citing our paper if you find this project helpful for your research:
 
+```bibtex
+@misc{zhou2025sameexploringvisualcorrespondence,
+      title={Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs}, 
+      author={Yikang Zhou and Tao Zhang and Shilin Xu and Shihao Chen and Qianyu Zhou and Yunhai Tong and Shunping Ji and Jiangning Zhang and Xiangtai Li and Lu Qi},
+      year={2025},
+      eprint={2501.04670},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2501.04670}, 
+}
+```
+
 ## Acknowledgement <a name="acknowledgement"></a>
 -  This work is built upon the [InternVL2](https://github.com/OpenGVLab/InternVL), [Qwen2VL](https://github.com/QwenLM/Qwen2-VL). 

@@ -1,4 +1,4 @@
-# Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs
+# Are They the Same? Exploring Visual Correspondence Shortcomings of Multimodal LLMs (Accepted by ICCV 2025)
 
 ### [Paper](https://arxiv.org/abs/2501.04670) | [Project Page](https://zhouyiks.github.io/projects/CoLVA/) | [MMVM Benchmark](https://huggingface.co/zhouyik/MMVMBench) | [Huggingface](https://huggingface.co/zhouyik/colva_internvl2_4b)
 
@@ -59,6 +59,11 @@ the images and visual prompt annotation file involved in the corresponding conve
 
 ## Evaluation <a name="evaluation"></a>
 
+===RECOMMENDED===
+You can evaluate MLLMs on our MMVM benchmark with [open-compass/VLMEvalKit](https://github.com/open-compass/VLMEvalKit/pull/1081) now. The dataset name is MMVMBench, and we construct it as a multi-image VQA dataset. 
+Therefore, the results are different from that evaluated by our old evaluation tool [VLMEvalKit](https://github.com/open-compass/VLMEvalKit), in which we constructed MMVMBench as a multi-image MCQ dataset.
+
+===NOT RECOMMENDED===
 We build the evaluation tool **MMVMEvalKit** based on [VLMEvalKit](https://github.com/open-compass/VLMEvalKit). To evaluate MLLMs on our MMVM benchmark.
  You can find the development version of our evaluation tool at [here](https://github.com/zhouyiks/MMVMEvalKit.git).
 
